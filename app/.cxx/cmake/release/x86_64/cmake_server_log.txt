@@ -1,0 +1,175 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp",
+  "buildDirectory": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/x86_64",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003dx86_64",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/release/obj/x86_64",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DANDROID_NDK\u003d/home/arfan/Android/Sdk/ndk/17.2.4988734",
+    "-DCMAKE_C_FLAGS\u003d-O3 -fsigned-char",
+    "-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions -fsigned-char",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003d/home/arfan/Android/Sdk/ndk/17.2.4988734",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/arfan/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/arfan/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DANDROID_TOOLCHAIN\u003dclang",
+    "-DANDROID_ARM_NEON\u003dTRUE",
+    "-DANDROID_STL\u003dgnustl_shared"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /home/arfan/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):\n  gnustl_shared is deprecated and will be removed in the next release.\n  Please switch to either c++_shared or c++_static.  See\n  https://developer.android.com/ndk/guides/cpp-support.html for more\n  information.\nCall Stack (most recent call first):\n  /home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /home/arfan/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  /home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt
+
+
+CMAKE SERVER: CMake Warning at /home/arfan/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  /home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt
+
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/home/arfan/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/home/arfan/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/x86_64","name":"Project","sourceDirectory":"/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp","targets":[{"artifacts":["/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"],"buildDirectory":"/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/x86_64","fileGroups":[{"compileFlags":"-isystem /home/arfan/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -fsigned-char -O2 -DNDEBUG  -fPIC  ","defines":["native_lib_EXPORTS"],"includePath":[{"path":"/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp/include"},{"isSystem":true,"path":"/home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include"},{"isSystem":true,"path":"/home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include"},{"isSystem":true,"path":"/home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include/backward"}],"isGenerated":false,"language":"CXX","sources":["native-lib.cpp"]}],"fullName":"libnative-lib.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /home/arfan/Android/Sdk/ndk/17.2.4988734/platforms/android-21/arch-x86_64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now","linkLibraries":"/home/arfan/code/AndroidUSBCamera-3/app/src/main/jniLibs/libs/x86_64/libopencv_java3.so /home/arfan/Android/Sdk/ndk/17.2.4988734/platforms/android-21/arch-x86_64/usr/lib64/liblog.so -latomic -lm \"/home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libsupc++.a\" \"/home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_shared.so\"","linkerLanguage":"CXX","name":"native-lib","sourceDirectory":"/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp","sysroot":"/home/arfan/Android/Sdk/ndk/17.2.4988734/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

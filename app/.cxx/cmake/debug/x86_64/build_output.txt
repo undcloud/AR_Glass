@@ -1,0 +1,11 @@
+CMake Warning at /home/arfan/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  /home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt
+
+
+Configuring done

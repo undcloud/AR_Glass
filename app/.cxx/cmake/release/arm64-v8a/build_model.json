@@ -1,0 +1,80 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/arfan/code/AndroidUSBCamera-3",
+      "sdkFolder": "/home/arfan/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/arfan/code/AndroidUSBCamera-3/app",
+      "makeFile": "/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/arfan/code/AndroidUSBCamera-3/.cxx",
+      "cxxFolder": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx",
+      "ndkFolder": "/home/arfan/Android/Sdk/ndk/17.2.4988734",
+      "ndkVersion": "17.2.4988734",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_ARM_NEON\u003dTRUE",
+      "-DANDROID_STL\u003dgnustl_shared"
+    ],
+    "cFlagList": [
+      "-O3",
+      "-fsigned-char"
+    ],
+    "cppFlagsList": [
+      "-frtti -fexceptions",
+      "-fsigned-char"
+    ],
+    "variantName": "release",
+    "soFolder": "/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/arm64-v8a",
+  "jsonFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a",
+  "objFolder": "/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/release/obj/arm64-v8a",
+  "buildCommandFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cxx/release/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/arm64-v8a/compile_commands.json"
+}

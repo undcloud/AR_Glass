@@ -1,0 +1,24 @@
+Executable : C:\Users\fanhao1\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\AndroidUSBCamera-3\app\src\main\cpp
+-BD:\AndroidUSBCamera-3\app\.cxx\cmake\debug\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\AndroidUSBCamera-3\app\build\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=C:\Users\fanhao1\AppData\Local\Android\Sdk\ndk\17.2.4988734
+-DCMAKE_C_FLAGS=-O3 -fsigned-char
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions -fsigned-char
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_SYSTEM_VERSION=21
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=C:\Users\fanhao1\AppData\Local\Android\Sdk\ndk\17.2.4988734
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\fanhao1\AppData\Local\Android\Sdk\ndk\17.2.4988734\build\cmake\android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=C:\Users\fanhao1\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_ARM_NEON=TRUE
+-DANDROID_STL=gnustl_shared
+jvmArgs : 
+

@@ -1,0 +1,7 @@
+Executable : C:\Users\fanhao1\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\AndroidUSBCamera-3\app\.cxx\cmake\debug\arm64-v8a
+native-lib
+jvmArgs : 
+

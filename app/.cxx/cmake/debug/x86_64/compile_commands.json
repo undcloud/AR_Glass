@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/debug/x86_64",
+  "command": "/home/arfan/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android --gcc-toolchain=/home/arfan/Android/Sdk/ndk/17.2.4988734/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/arfan/Android/Sdk/ndk/17.2.4988734/sysroot  -Dnative_lib_EXPORTS -I/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp/include -isystem /home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/arfan/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/arfan/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp/native-lib.cpp"
+}
+]

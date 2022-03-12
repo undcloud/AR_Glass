@@ -1,0 +1,133 @@
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  C:/Users/fanhao1/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
+  CMakeLists.txt
+
+
+Check for working C compiler: C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+Check for working C compiler: C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+Detecting C compiler ABI info
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+Detecting C compiler ABI info - done
+Detecting C compile features
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+Detecting C compile features - done
+Check for working CXX compiler: C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+Check for working CXX compiler: C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+Detecting CXX compiler ABI info
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+Detecting CXX compiler ABI info - done
+Detecting CXX compile features
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake:217 (message):
+  gnustl_shared is deprecated and will be removed in the next release.
+  Please switch to either c++_shared or c++_static.  See
+  https://developer.android.com/ndk/guides/cpp-support.html for more
+  information.
+Call Stack (most recent call first):
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+Detecting CXX compile features - done
+Configuring done

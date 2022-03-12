@@ -1,0 +1,11 @@
+# ninja log v5
+65	2502	1601026172	CMakeFiles/native-lib.dir/home/arfan/code/AndroidUSBCamera-2/app/src/main/cpp/native-lib.cpp.o	6f3225584c68976a
+2502	3186	1601026173	/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	dca49be0fb4e7ac3
+0	67	0	clean	29da7b9b01e17a90
+0	3	0	clean	29da7b9b01e17a90
+0	181	1601046109	build.ninja	c57226d9023280a1
+0	2	0	clean	29da7b9b01e17a90
+0	20	1601046220	build.ninja	c57226d9023280a1
+0	3	0	clean	29da7b9b01e17a90
+0	1335	1601046231	CMakeFiles/native-lib.dir/native-lib.cpp.o	3df16367dbb6fc43
+1335	1892	1601046231	/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	61ea660b0819645e

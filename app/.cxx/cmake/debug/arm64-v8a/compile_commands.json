@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "C:\\Users\\fanhao1\\AppData\\Local\\Android\\Sdk\\ndk\\17.2.4988734\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android --gcc-toolchain=C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sysroot  -Dnative_lib_EXPORTS -ID:/AndroidUSBCamera-3/app/src/main/cpp/./include -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c D:\\AndroidUSBCamera-3\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "D:\\AndroidUSBCamera-3\\app\\src\\main\\cpp\\native-lib.cpp"
+}
+]

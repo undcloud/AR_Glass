@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.versionCompiler
+    defaultConfig {
+        applicationId "com.jiangdg.usbcamera"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.versionTarget
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionNameString
+
+//    compileSdkVersion 27
+//    buildToolsVersion "27"   30好像也可以
+
+
+
+//    defaultConfig {
+//        applicationId "com.example.myapplication"
+//        minSdkVersion 21
+//        targetSdkVersion 27 //30好像也可以
+//        versionCode 1
+//        versionName "1.0"
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        externalNativeBuild {
+            cmake {
+//                cppFlags "-std=c++11 -frtti -fexceptions"
+                abiFilters 'armeabi-v7a',"arm64-v8a","x86","x86_64"
+//                arguments "-DANDROID_STL=c++_shared"
+                arguments '-DANDROID_TOOLCHAIN=clang', '-DANDROID_ARM_NEON=TRUE', '-DANDROID_STL=gnustl_shared'
+                cFlags '-O3', '-fsigned-char'
+                cppFlags "-frtti -fexceptions", '-fsigned-char'
+            }
+        }
+        ndk{
+            abiFilters 'armeabi-v7a',"arm64-v8a","x86","x86_64"
+        }
+
+
+    }
+
+    sourceSets{
+        main{
+            jniLibs.srcDirs = ['src/main/jniLibs/libs']
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+//            version "3.10.2"
+        }
+    }
+
+
+
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/libopencv_java3.so'
+        pickFirst 'lib/armeabi-v7a/libopencv_java3.so'
+        pickFirst 'lib/x86/libopencv_java3.so'
+        pickFirst 'lib/x86_64/libopencv_java3.so'
+    }
+
+
+    // solving com.android.tools.r8.CompilationFailedException: Compilation failed to complete
+    compileOptions {
+        sourceCompatibility rootProject.ext.javaSourceCompatibility
+        targetCompatibility rootProject.ext.javaTargetCompatibility
+    }
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation "androidx.appcompat:appcompat:${androidXVersion}"
+
+    implementation 'com.jakewharton:butterknife:10.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
+
+    implementation project(':libusbcamera')
+
+
+
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+    implementation project(path: ':openCVLibrary330')
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+
+
+}
+
+
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+    all*.exclude group: 'com.android.support', module: 'support-annotations'
+}

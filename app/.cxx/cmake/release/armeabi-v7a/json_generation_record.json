@@ -1,0 +1,50 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Choosing a suitable version."
+  },
+  {
+    "level": "INFO",
+    "message": "- Found CMake \u00273.10.2\u0027 via cmake.dir\u003d\u0027/home/arfan/Android/Sdk/cmake/3.10.2.4988404\u0027."
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/armeabi-v7a\u0027 but regenerating project"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/arfan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/arfan/code/AndroidUSBCamera-3/app/src/main/cpp\n-B/home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/armeabi-v7a\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_PLATFORM\u003dandroid-21\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/arfan/code/AndroidUSBCamera-3/app/build/intermediates/cmake/release/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DANDROID_NDK\u003d/home/arfan/Android/Sdk/ndk/17.2.4988734\n-DCMAKE_C_FLAGS\u003d-O3 -fsigned-char\n-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions -fsigned-char\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/home/arfan/Android/Sdk/ndk/17.2.4988734\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/arfan/Android/Sdk/ndk/17.2.4988734/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/home/arfan/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_ARM_NEON\u003dTRUE\n-DANDROID_STL\u003dgnustl_shared\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/armeabi-v7a/build_output.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/arfan/code/AndroidUSBCamera-3/app/.cxx/cmake/release/armeabi-v7a/build_command.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems"
+  }
+]

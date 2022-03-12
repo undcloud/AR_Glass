@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "D:/AndroidUSBCamera-3/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android --gcc-toolchain=C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sysroot -Dnative_lib_EXPORTS -ID:/AndroidUSBCamera-3/app/src/main/cpp/./include -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem C:/Users/fanhao1/AppData/Local/Android/Sdk/ndk/17.2.4988734/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\fanhao1\\AppData\\Local\\Android\\Sdk\\ndk\\17.2.4988734\\build\\cmake\\android.toolchain.cmake",
+    "D:\\AndroidUSBCamera-3\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\fanhao1\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidUSBCamera-3\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\fanhao1\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidUSBCamera-3\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "buildCommand": "C:\\Users\\fanhao1\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidUSBCamera-3\\app\\.cxx\\cmake\\debug\\arm64-v8a\" native-lib",
+      "buildType": "debug",
+      "toolchain": "970893995",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "D:\\AndroidUSBCamera-3\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\AndroidUSBCamera-3\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "970893995": {
+      "cppCompilerExecutable": "C:\\Users\\fanhao1\\AppData\\Local\\Android\\Sdk\\ndk\\17.2.4988734\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
